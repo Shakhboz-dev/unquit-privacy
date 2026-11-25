@@ -63,45 +63,57 @@
 
 <div id="uz" class="lang-section active">
   <h1>Ma'lumotlarni o'chirish — Unquit</h1>
-  <p class="date">Kuchga kirgan sana: 2026-yil 24-iyun</p>
+  <p class="date">Kuchga kirgan sana: 2026-yil 24-noyabr</p>
 
-  <p>Ushbu sahifa <strong>"Unquit"</strong> mobil ilovasiga (developer: Unquit.app) tegishli ma'lumotlaringizni qanday o'chirishni yoki o'chirishni so'rashni tushuntiradi.</p>
+  <p>Ushbu sahifa <strong>«Unquit»</strong> ilovasiga (Android va Windows versiyalari; developer: Unquit.app) tegishli ma'lumotlaringizni qanday o'chirishni yoki o'chirishni so'rashni tushuntiradi. Ilovada ro'yxatdan o'tish va akkaunt tizimi yo'q.</p>
 
   <div class="tldr">
     <strong>Qisqacha</strong>
-    <p>Ma'lumotlaringizning deyarli barchasi faqat qurilmangizda saqlanadi — ilovani o'chirsangiz (uninstall), ular ham butunlay o'chadi. Bizda faqat siz o'zingiz yuborgan xabar yoki xatolik hisoboti qolishi mumkin; ularni email orqali o'chirib berishni so'rashingiz mumkin.</p>
+    <p>Ma'lumotlaringizning deyarli barchasi faqat qurilmangizda saqlanadi — ilova ichidan tozalasangiz yoki ilovani o'chirsangiz (uninstall), ular butunlay yo'qoladi. Bizda faqat siz o'zingiz yuborgan xabar/hisobotlar va ishlatilgan bir martalik promo kod yozuvi qolishi mumkin; ularni email orqali o'chirib berishni so'rashingiz mumkin.</p>
   </div>
 
   <h2>Qanday ma'lumotlar mavjud</h2>
   <ul>
-    <li><strong>Qurilmadagi ma'lumotlar</strong> — vazifalar, eslatmalar, qaydlar, maqsadlar, odatlar, statistika va sozlamalar. Bular faqat qurilmangizda saqlanadi, bizga yuborilmaydi.</li>
-    <li><strong>Bizga yuborilgan ma'lumotlar (faqat siz tanlaganingizda)</strong> — "Muammo haqida xabar berish" orqali yuborgan matningiz va siz rozilik bergan texnik xatolik (crash) hisoboti.</li>
+    <li><strong>Qurilmadagi ma'lumotlar</strong> — vazifalar, odatlar, maqsadlar xaritalari, eslatmalar, kelajakka maktublar, va'da-shartnomalar, statistika, sozlamalar, seriya (streak), muz zaxirasi, nishonlar, haftalik yakunlar, qadamlar tarixi, ingliz tili bo'limidagi o'quv jarayoni, motivatsion video nusxalari, ilova paroli hamda Plus/promo kod holati keshi. Bular faqat qurilmangizda saqlanadi va developerning serveriga yuborilmaydi.</li>
+    <li><strong>Bizga yuborilgan ma'lumotlar (faqat siz harakat qilganingizda)</strong>:
+      <ul>
+        <li>«Muammo haqida xabar berish» orqali yuborgan matningiz (Telegram orqali developerga);</li>
+        <li>ilova qulagandan so'ng rozilik bergan texnik xatolik (crash) hisoboti;</li>
+        <li>ingliz tili mashqida bayroqcha tugmasi orqali yuborgan mashq hisobotingiz (javobingiz, jumladan gapirish mashqida tanilgan nutq matni bilan);</li>
+        <li>«Hissa qo'shish» bo'limida to'lovdan so'ng ixtiyoriy yozgan ism va izohingiz;</li>
+        <li>bir martalik promo kod kiritganingizda Cloudflare Worker xizmatida saqlanadigan ishlatilgan kod yozuvi va anonim qurilma identifikatori (Android'da <code>ANDROID_ID</code>, Windows'da <code>MachineGuid</code>).</li>
+      </ul>
+    </li>
+    <li><strong>Google Play obunasi</strong> — Unquit Plus obunasi Google Play hisobingizga bog'liq; biz karta va to'lov ma'lumotlarini olmaymiz.</li>
   </ul>
 
   <h2>1) Qurilmadagi ma'lumotlarni o'chirish</h2>
   <div class="steps">
     <ol>
-      <li>Ilovani oching → <strong>Sozlamalar</strong> bo'limidan ma'lumotlarni tozalashingiz mumkin; <strong>yoki</strong></li>
-      <li>Ilovani telefoningizdan <strong>o'chirib tashlang (uninstall)</strong>.</li>
+      <li>Ilovani oching → <strong>Sozlamalar → «Barcha ma'lumotlarni o'chirish»</strong> orqali hamma narsani tozalashingiz mumkin (alohida vazifa, odat, video yoki maktubni o'z bo'limida o'chirasiz; qadam sanagichni o'chirsangiz uning yozuvi darhol yo'qoladi); <strong>yoki</strong></li>
+      <li>Ilovani qurilmangizdan <strong>o'chirib tashlang (uninstall)</strong> — bunda motivatsion video nusxalari va qadamlar tarixi bilan birga barcha mahalliy ma'lumotlar butunlay o'chiriladi.</li>
     </ol>
-    <p>Shu zahoti barcha ma'lumotlaringiz qurilmadan butunlay o'chiriladi. Bizda ulardan hech qanday nusxa qolmaydi.</p>
+    <p>Telefoningizda Google zaxirasi yoqilgan bo'lsa, Android ilova ma'lumotining nusxasini Google akkauntingizda saqlashi mumkin. Buni telefon sozlamalarida o'chirish mumkin.</p>
+    <p>Unquit Plus obunasini bekor qilish yoki boshqarish uchun Google Play ilovasining <strong>«Obunalar»</strong> bo'limidan foydalaning.</p>
   </div>
 
   <h2>2) Bizga yuborilgan ma'lumotlarni o'chirishni so'rash</h2>
-  <p>Agar siz "Muammo haqida xabar berish" orqali xabar yuborgan yoki xatolik hisobotini yuborgan bo'lsangiz va uni o'chirishni istasangiz:</p>
+  <p>Agar siz muammo xabari, xatolik (crash) hisoboti, ingliz mashqi hisoboti, ixtiyoriy hissa izohi yuborgan yoki bir martalik promo kod ishlatgan bo'lsangiz va ushbu yozuvni o'chirishni istasangiz:</p>
   <div class="steps">
     <ol>
       <li><a href="mailto:Unquit.app@gmail.com">Unquit.app@gmail.com</a> manziliga email yuboring.</li>
-      <li>Mavzu (subject): <strong>"Ma'lumotni o'chirish so'rovi"</strong> deb yozing.</li>
-      <li>Xatda xabarni taxminan qachon yuborganingizni yoki mazmunini qisqacha yozing — shunda biz uni topa olamiz.</li>
-      <li>Biz so'rovingizni qabul qilamiz va ma'lumotni <strong>30 kun ichida</strong> o'chirib, sizga tasdiqlab javob beramiz.</li>
+      <li>Mavzu (subject): <strong>«Ma'lumotni o'chirish so'rovi»</strong> deb yozing.</li>
+      <li>Xatda qaysi ma'lumotni o'chirmoqchiligingizni ko'rsating: xabar/hisobotni taxminan qachon yuborganingiz yoki qisqa mazmunini, promo kod yozuvi uchun esa ishlatilgan promo kodni yozing — shunda biz uni aniq topa olamiz.</li>
+      <li>Biz so'rovingizni qabul qilamiz va tegishli ma'lumotni <strong>30 kun ichida</strong> o'chirib, sizga javob orqali tasdiqlaymiz.</li>
     </ol>
   </div>
 
   <h2>Qaysi ma'lumot saqlanadi va qancha muddat</h2>
   <ul>
-    <li><strong>Qurilmadagi ma'lumotlar:</strong> bizda umuman saqlanmaydi; faqat qurilmangizda turadi va o'chirish/uninstall qilsangiz darhol yo'qoladi.</li>
-    <li><strong>Siz yuborgan xabar / xatolik hisoboti:</strong> siz o'chirishni so'ramaguningizcha saqlanadi. So'rov kelgach, <strong>30 kun ichida</strong> o'chiriladi. Bu ma'lumotlar reklama, tahlil (analytics) yoki boshqa maqsadlarda ishlatilmaydi.</li>
+    <li><strong>Qurilmadagi ma'lumotlar:</strong> bizda umuman saqlanmaydi; faqat qurilmangizda turadi va tozalash/uninstall qilsangiz darhol yo'qoladi.</li>
+    <li><strong>Siz yuborgan xabarlar, hisobotlar va ixtiyoriy hissa izohi:</strong> siz o'chirishni so'ramaguningizcha Telegram'da saqlanadi; so'rov kelgach, <strong>30 kun ichida</strong> o'chiriladi.</li>
+    <li><strong>Ishlatilgan promo kod yozuvi va anonim qurilma identifikatori:</strong> kodning qayta ishlatilishining oldini olish va shu qurilmada qayta tiklash imkonini berish uchun Cloudflare Worker'da saqlanadi; o'chirishni so'rasangiz, <strong>30 kun ichida</strong> o'chiriladi (shundan so'ng shu qurilmada promo kodni avtomatik tiklash ishlamaydi).</li>
+    <li>Bu ma'lumotlarning hech biri reklama, sotish yoki tahlil (analytics) maqsadlarida ishlatilmaydi.</li>
   </ul>
 
   <h2>Bog'lanish</h2>
@@ -114,45 +126,57 @@
 
 <div id="en" class="lang-section">
   <h1>Data Deletion — Unquit</h1>
-  <p class="date">Effective date: June 24, 2026</p>
+  <p class="date">Effective date: November 24, 2026</p>
 
-  <p>This page explains how to delete, or request deletion of, data related to the <strong>"Unquit"</strong> mobile application (developer: Unquit.app).</p>
+  <p>This page explains how to delete, or request deletion of, data related to the <strong>"Unquit"</strong> application (Android and Windows versions; developer: Unquit.app). The App has no accounts or registration.</p>
 
   <div class="tldr">
     <strong>In short</strong>
-    <p>Almost all of your data is stored only on your device — uninstalling the app removes it completely. We may only hold a message or error report that you yourself chose to send; you can request its deletion by email.</p>
+    <p>Almost all of your data is stored only on your device — clearing data in the App or uninstalling it removes it completely. We may only hold messages/reports that you deliberately sent and redeemed one-time promo code records; you can request their deletion by email.</p>
   </div>
 
   <h2>What data exists</h2>
   <ul>
-    <li><strong>On-device data</strong> — tasks, reminders, notes, goals, habits, statistics, and settings. This is stored only on your device and is not sent to us.</li>
-    <li><strong>Data sent to us (only when you choose to)</strong> — a message you send via "Report a problem", and a technical error (crash) report you agree to send.</li>
+    <li><strong>On-device data</strong> — tasks, habits, goal maps, notes, letters to the future, promise contracts, statistics, settings, streak, ice reserve, badges, weekly recaps, step history, English course progress, motivation video copies, the app password, and the Plus/promo code confirmation cache. This is stored only on your device and is not sent to any developer server.</li>
+    <li><strong>Data sent to us (only when you take action)</strong>:
+      <ul>
+        <li>a message you send via "Report a problem" (delivered to the developer via Telegram);</li>
+        <li>a technical error (crash) report that you agree to send after a crash;</li>
+        <li>an English exercise report you submit via the flag button (including your answer and, in speaking exercises, the recognized speech text);</li>
+        <li>an optional name and note you choose to submit after a payment in "Contribute";</li>
+        <li>when you redeem a one-time promo code, the redeemed code record and an anonymous device identifier (<code>ANDROID_ID</code> on Android, <code>MachineGuid</code> on Windows) stored in our Cloudflare Worker.</li>
+      </ul>
+    </li>
+    <li><strong>Google Play subscription</strong> — Unquit Plus subscriptions are tied to your Google Play account; we never receive card or payment details.</li>
   </ul>
 
   <h2>1) Deleting on-device data</h2>
   <div class="steps">
     <ol>
-      <li>Open the app → you can clear data from <strong>Settings</strong>; <strong>or</strong></li>
-      <li><strong>Uninstall</strong> the app from your phone.</li>
+      <li>Open the App → go to <strong>Settings → "Delete all data"</strong> to clear everything (you can also delete individual tasks, habits, videos, or letters in their sections; turning off the step counter removes its record immediately); <strong>or</strong></li>
+      <li><strong>Uninstall</strong> the App from your device — this permanently removes all local data, including motivation video copies and step history.</li>
     </ol>
-    <p>All of your data is then permanently removed from the device. We keep no copy of it.</p>
+    <p>If Google backup is turned on on your phone, Android may keep a copy of the app's data in your Google account. You can turn this off in your phone's settings.</p>
+    <p>To manage or cancel an Unquit Plus subscription, use Google Play's <strong>"Subscriptions"</strong> section.</p>
   </div>
 
   <h2>2) Requesting deletion of data sent to us</h2>
-  <p>If you have sent a message via "Report a problem" or sent an error report and want it deleted:</p>
+  <p>If you have sent a problem report, crash report, English exercise report, or optional contribution note, or redeemed a one-time promo code, and want that record deleted:</p>
   <div class="steps">
     <ol>
       <li>Send an email to <a href="mailto:Unquit.app@gmail.com">Unquit.app@gmail.com</a>.</li>
       <li>Subject: <strong>"Data deletion request"</strong>.</li>
-      <li>In the email, tell us roughly when you sent the message, or briefly describe it, so we can find it.</li>
-      <li>We will process your request and delete the data <strong>within 30 days</strong>, then confirm by reply.</li>
+      <li>Specify what you want deleted: for messages/reports, tell us roughly when you sent them or briefly describe them; for a promo code record, include the redeemed promo code so we can locate it.</li>
+      <li>We will process your request and delete the relevant data <strong>within 30 days</strong>, then confirm by reply.</li>
     </ol>
   </div>
 
   <h2>What is retained and for how long</h2>
   <ul>
     <li><strong>On-device data:</strong> never stored by us; it stays only on your device and is removed instantly when you clear data or uninstall.</li>
-    <li><strong>A message / error report you sent:</strong> retained until you request deletion. Upon request it is deleted <strong>within 30 days</strong>. This data is not used for advertising, analytics, or any other purpose.</li>
+    <li><strong>Messages, reports, and optional contribution notes you sent:</strong> retained in Telegram until you request deletion; upon request, deleted <strong>within 30 days</strong>.</li>
+    <li><strong>Redeemed promo code record and anonymous device identifier:</strong> stored in Cloudflare Worker to prevent reuse and allow restoration on the same device; upon request, deleted <strong>within 30 days</strong> (after which automatic restoration on that device will no longer work).</li>
+    <li>None of this data is ever sold or used for advertising or analytics.</li>
   </ul>
 
   <h2>Contact</h2>
